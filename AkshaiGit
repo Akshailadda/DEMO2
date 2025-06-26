@@ -1,0 +1,20 @@
+//calculate the area of rectangle
+
+import java.util.Scanner;
+
+public class main{
+public static void main(String[] args){
+    double width=0;
+    double height=0;
+    double area=0;
+
+    Scanner scanner=new Scanner(System.in);
+    System.out.print("Enter the width and height:");
+    width= scanner.nextDouble();
+    height =scanner.nextDouble();
+    System.out.println("The area is "+ width*height);
+    
+
+    scanner.close();
+}
+}
